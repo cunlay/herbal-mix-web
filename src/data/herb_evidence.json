@@ -1,0 +1,475 @@
+{
+  "source": "HERB v2 reference, experiment, ingredient and disease files",
+  "source_url": "http://47.92.70.12/Download/",
+  "generated_at": "2026-10-08T16:10:11.936Z",
+  "license_note": "Check HERB terms of use before redistributing this file.",
+  "herbs": {
+    "bilberry": {
+      "name": "Bilberry",
+      "herb_ids": [],
+      "papers_total": 0,
+      "papers_by_type": {},
+      "clinical_papers": 0,
+      "recent_clinical": [],
+      "transcriptomic_datasets": 0,
+      "key_compound": {
+        "label": "anthocyanins",
+        "ingredient_records": 22,
+        "distinct_papers": 0,
+        "note": "Matched by compound name, not confirmed as coming from this herb."
+      }
+    },
+    "saffron": {
+      "name": "Saffron",
+      "herb_ids": [],
+      "papers_total": 0,
+      "papers_by_type": {},
+      "clinical_papers": 0,
+      "recent_clinical": [],
+      "transcriptomic_datasets": 0,
+      "key_compound": {
+        "label": "crocin",
+        "ingredient_records": 15,
+        "distinct_papers": 13,
+        "note": "Matched by compound name, not confirmed as coming from this herb."
+      }
+    },
+    "ginkgo": {
+      "name": "Ginkgo",
+      "herb_ids": [
+        "HERB000188"
+      ],
+      "papers_total": 6,
+      "papers_by_type": {
+        "Clinical Experiment": 1,
+        "Animal Experiment": 3,
+        "Clinical & Cell Experiment": 1,
+        "Others": 1
+      },
+      "clinical_papers": 2,
+      "recent_clinical": [
+        {
+          "title": "Ginkgo Biloba Leaf Extract Improves an Innate Immune Response of Peripheral Blood Leukocytes of Alzheimer's Disease Patients",
+          "journal": "Nutrients",
+          "year": "2022",
+          "doi": "10.3390/nu14102022",
+          "pubmed_id": "35631163",
+          "study_type": "Clinical & Cell Experiment"
+        },
+        {
+          "title": "Ginkgo biloba extract attenuates the disruption of pro-and anti-inflammatory T-cell balance in peripheral blood of arsenicosis patients",
+          "journal": "Int J Biol Sci",
+          "year": "2020",
+          "doi": "10.7150/ijbs.39351",
+          "pubmed_id": "32015684",
+          "study_type": "Clinical Experiment"
+        }
+      ],
+      "transcriptomic_datasets": 0,
+      "key_compound": {
+        "label": "ginkgolides",
+        "ingredient_records": 6,
+        "distinct_papers": 5,
+        "note": "Matched by compound name, not confirmed as coming from this herb."
+      }
+    },
+    "fennel": {
+      "name": "Fennel",
+      "herb_ids": [
+        "HERB002625"
+      ],
+      "papers_total": 1,
+      "papers_by_type": {
+        "Animal & Cell Experiment": 1
+      },
+      "clinical_papers": 0,
+      "recent_clinical": [],
+      "transcriptomic_datasets": 0,
+      "key_compound": {
+        "label": "anethole",
+        "ingredient_records": 7,
+        "distinct_papers": 6,
+        "note": "Matched by compound name, not confirmed as coming from this herb."
+      }
+    },
+    "ginger": {
+      "name": "Ginger",
+      "herb_ids": [
+        "HERB001787"
+      ],
+      "papers_total": 1,
+      "papers_by_type": {
+        "Animal Experiment": 1
+      },
+      "clinical_papers": 0,
+      "recent_clinical": [],
+      "transcriptomic_datasets": 0,
+      "key_compound": {
+        "label": "gingerol",
+        "ingredient_records": 17,
+        "distinct_papers": 14,
+        "note": "Matched by compound name, not confirmed as coming from this herb."
+      }
+    },
+    "peppermint": {
+      "name": "Peppermint oil",
+      "herb_ids": [
+        "HERB003229"
+      ],
+      "papers_total": 0,
+      "papers_by_type": {},
+      "clinical_papers": 0,
+      "recent_clinical": [],
+      "transcriptomic_datasets": 0,
+      "key_compound": null
+    },
+    "chamomile": {
+      "name": "Chamomile",
+      "herb_ids": [
+        "HERB004045"
+      ],
+      "papers_total": 1,
+      "papers_by_type": {
+        "Animal Experiment": 1
+      },
+      "clinical_papers": 0,
+      "recent_clinical": [],
+      "transcriptomic_datasets": 0,
+      "key_compound": null
+    },
+    "passionflower": {
+      "name": "Passionflower",
+      "herb_ids": [
+        "HERB001684"
+      ],
+      "papers_total": 0,
+      "papers_by_type": {},
+      "clinical_papers": 0,
+      "recent_clinical": [],
+      "transcriptomic_datasets": 0,
+      "key_compound": null
+    },
+    "echinacea": {
+      "name": "Echinacea",
+      "herb_ids": [
+        "HERB007240"
+      ],
+      "papers_total": 2,
+      "papers_by_type": {
+        "Animal Experiment": 2
+      },
+      "clinical_papers": 0,
+      "recent_clinical": [],
+      "transcriptomic_datasets": 1,
+      "key_compound": {
+        "label": "echinacoside",
+        "ingredient_records": 2,
+        "distinct_papers": 12,
+        "note": "Matched by compound name, not confirmed as coming from this herb."
+      }
+    },
+    "eleuthero": {
+      "name": "Eleuthero",
+      "herb_ids": [
+        "HERB000941",
+        "HERB000942"
+      ],
+      "papers_total": 1,
+      "papers_by_type": {
+        "Cell Experiment": 1
+      },
+      "clinical_papers": 0,
+      "recent_clinical": [],
+      "transcriptomic_datasets": 0,
+      "key_compound": {
+        "label": "eleutherosides",
+        "ingredient_records": 6,
+        "distinct_papers": 0,
+        "note": "Matched by compound name, not confirmed as coming from this herb."
+      }
+    },
+    "turmeric": {
+      "name": "Turmeric",
+      "herb_ids": [
+        "HERB002840"
+      ],
+      "papers_total": 1,
+      "papers_by_type": {
+        "Animal Experiment": 1
+      },
+      "clinical_papers": 0,
+      "recent_clinical": [],
+      "transcriptomic_datasets": 0,
+      "key_compound": {
+        "label": "curcumin",
+        "ingredient_records": 10,
+        "distinct_papers": 204,
+        "note": "Matched by compound name, not confirmed as coming from this herb."
+      }
+    },
+    "harpagophytum": {
+      "name": "Devil's claw",
+      "herb_ids": [
+        "HERB004088"
+      ],
+      "papers_total": 1,
+      "papers_by_type": {
+        "Cell Experiment": 1
+      },
+      "clinical_papers": 0,
+      "recent_clinical": [],
+      "transcriptomic_datasets": 0,
+      "key_compound": {
+        "label": "harpagoside",
+        "ingredient_records": 5,
+        "distinct_papers": 1,
+        "note": "Matched by compound name, not confirmed as coming from this herb."
+      }
+    },
+    "achillea_millefolium": {
+      "name": "Yarrow",
+      "herb_ids": [
+        "HERB006402"
+      ],
+      "papers_total": 1,
+      "papers_by_type": {
+        "Cell Experiment": 1
+      },
+      "clinical_papers": 0,
+      "recent_clinical": [],
+      "transcriptomic_datasets": 0,
+      "key_compound": null
+    },
+    "aloe_vera": {
+      "name": "Aloe vera",
+      "herb_ids": [
+        "HERB000329"
+      ],
+      "papers_total": 0,
+      "papers_by_type": {},
+      "clinical_papers": 0,
+      "recent_clinical": [],
+      "transcriptomic_datasets": 0,
+      "key_compound": null
+    },
+    "asparagus_officinalis": {
+      "name": "Asparagus Officinalis",
+      "herb_ids": [
+        "HERB005041"
+      ],
+      "papers_total": 1,
+      "papers_by_type": {
+        "Animal & Cell Experiment": 1
+      },
+      "clinical_papers": 0,
+      "recent_clinical": [],
+      "transcriptomic_datasets": 0,
+      "key_compound": null
+    },
+    "sage": {
+      "name": "Sage",
+      "herb_ids": [
+        "HERB006427",
+        "HERB006428"
+      ],
+      "papers_total": 1,
+      "papers_by_type": {
+        "Animal Experiment": 1
+      },
+      "clinical_papers": 0,
+      "recent_clinical": [],
+      "transcriptomic_datasets": 0,
+      "key_compound": null
+    }
+  },
+  "ailments": {
+    "eye_health": {
+      "name": "Eye health",
+      "disease_matches": 810,
+      "examples": [
+        "Acanthamoeba Keratitis",
+        "Nonproliferative Diabetic Retinopathy",
+        "Retinopathy Background",
+        "Central Retinal Artery Occlusion",
+        "Chorioretinitis",
+        "Chronic Anterior Uveitis",
+        "Congenital Cataract",
+        "Conjunctival Diseases",
+        "Conjunctival Neoplasms",
+        "Conjunctivitis",
+        "Conjunctivitis, Acute Hemorrhagic",
+        "Allergic Conjunctivitis",
+        "Cataract Due To Diabetes Mellitus",
+        "Diabetic Retinopathy",
+        "Dry Eye Syndromes"
+      ],
+      "note": "Name-pattern matches from HERB disease records. Not a curated mapping."
+    },
+    "digestive_comfort": {
+      "name": "Digestive comfort",
+      "disease_matches": 39,
+      "examples": [
+        "Dyspepsia",
+        "Flatulence",
+        "Gastritis",
+        "Gastritis, Atrophic",
+        "Gastritis, Hypertrophic",
+        "Irritable Bowel Syndrome",
+        "Nausea",
+        "Nausea And Vomiting",
+        "Chronic Gastritis",
+        "Alcoholic Gastritis",
+        "Eosinophilic Gastritis",
+        "Reflux Gastritis",
+        "Superficial Gastritis",
+        "Reactive Gastritis",
+        "Helicobacter-Associated Gastritis"
+      ],
+      "note": "Name-pattern matches from HERB disease records. Not a curated mapping."
+    },
+    "sleep_support": {
+      "name": "Sleep and calm",
+      "disease_matches": 23,
+      "examples": [
+        "Sleep Initiation And Maintenance Disorders",
+        "Primary Insomnia",
+        "Non-Organic Sleep Disorder",
+        "Fatal Familial Insomnia",
+        "Rebound Insomnia",
+        "Nonorganic Insomnia",
+        "Transient Insomnia",
+        "Initial Insomnia",
+        "Middle Insomnia",
+        "Late Insomnia",
+        "Chronic Insomnia",
+        "Psychophysiological Insomnia",
+        "Secondary Insomnia",
+        "Sleep Initiation Dysfunction",
+        "Shift-Work Sleep Disorder"
+      ],
+      "note": "Name-pattern matches from HERB disease records. Not a curated mapping."
+    },
+    "immune_support": {
+      "name": "Immune support",
+      "disease_matches": 54,
+      "examples": [
+        "Acute Pharyngitis",
+        "Atopic Rhinitis",
+        "Chronic Rhinitis",
+        "Common Cold",
+        "Influenza",
+        "Nasopharyngitis",
+        "Parainfluenza",
+        "Pharyngitis",
+        "Rhinitis",
+        "Rhinitis, Allergic, Perennial",
+        "Rhinitis, Vasomotor",
+        "Upper Respiratory Infections",
+        "Chronic Nasopharyngitis",
+        "Pneumonia And Influenza",
+        "Acute Upper Respiratory Infection"
+      ],
+      "note": "Name-pattern matches from HERB disease records. Not a curated mapping."
+    },
+    "joint_comfort": {
+      "name": "Joint comfort",
+      "disease_matches": 122,
+      "examples": [
+        "Arthritis",
+        "Arthritis, Adjuvant-Induced",
+        "Arthritis, Gouty",
+        "Arthritis, Infectious",
+        "Arthritis, Psoriatic",
+        "Rheumatoid Arthritis",
+        "Arthritis, Viral",
+        "Hip Joint Pain",
+        "Degenerative Polyarthritis",
+        "Osteoarthritis of Hip",
+        "Rheumatoid Nodule",
+        "Arthritis, Reactive",
+        "Rheumatoid Purpura",
+        "Rheumatoid Factor Positive (Finding)",
+        "Infective Arthritis of Shoulder Region"
+      ],
+      "note": "Name-pattern matches from HERB disease records. Not a curated mapping."
+    },
+    "anxiety_stress": {
+      "name": "Anxiety and stress",
+      "disease_matches": 27,
+      "examples": [
+        "Anxiety",
+        "Anxiety Disorders",
+        "Separation Anxiety Disorder",
+        "Free-Floating Anxiety",
+        "Anxiety Generalized",
+        "Generalized Anxiety Disorder",
+        "Mixed Anxiety And Depressive Disorder",
+        "Phobic Anxiety Disorder",
+        "Anxiety States, Neurotic",
+        "Anxiety And Fear",
+        "Social Anxiety",
+        "Performance Anxiety",
+        "Death Anxiety",
+        "Chronic Anxiety",
+        "Clinical Anxiety"
+      ],
+      "note": "Name-pattern matches from HERB disease records. Not a curated mapping."
+    },
+    "nausea": {
+      "name": "Nausea",
+      "disease_matches": 16,
+      "examples": [
+        "Nausea",
+        "Nausea And Vomiting",
+        "Vomiting",
+        "Cyclical Vomiting Syndrome (Disorder)",
+        "Projectile Vomiting",
+        "Self-Induced Vomiting",
+        "Diarrhea And Vomiting, Symptom",
+        "Postoperative Nausea",
+        "Vomiting, Postoperative",
+        "Postoperative Nausea And Vomiting",
+        "Nausea Chronic",
+        "Vomiting, Recurrent",
+        "Nausea In Pregnancy",
+        "Episodic Vomiting",
+        "Intractable Nausea And Vomiting"
+      ],
+      "note": "Name-pattern matches from HERB disease records. Not a curated mapping."
+    },
+    "irritable_bowel": {
+      "name": "Irritable bowel symptoms",
+      "disease_matches": 7,
+      "examples": [
+        "Irritable Bowel Syndrome",
+        "Irritable Bowel Syndrome With Diarrhea",
+        "Functional Diarrhoea (Due To Spastic Colon)",
+        "Diarrhoea Predominant Irritable Bowel Syndrome",
+        "Irritable Bowel Syndrome Characterized By Constipation",
+        "Irritable Bowel Syndrome With Constipation",
+        "Mixed Irritable Bowel Syndrome"
+      ],
+      "note": "Name-pattern matches from HERB disease records. Not a curated mapping."
+    },
+    "menstrual_discomfort": {
+      "name": "Menstrual discomfort",
+      "disease_matches": 13,
+      "examples": [
+        "Dysmenorrhea",
+        "Premenstrual Syndrome",
+        "Primary Dysmenorrhea",
+        "Intermenstrual Heavy Bleeding",
+        "Menstrual Spotting",
+        "Premenstrual Tension",
+        "Menstrual Epilepsy",
+        "Premenstrual Dysphoric Disorder",
+        "Menstrual Symptoms",
+        "Pure Menstrual Migraine",
+        "Periodic Fever, Menstrual Cycle-Dependent",
+        "Abnormality of The Menstrual Cycle",
+        "Premenstrual Symptom"
+      ],
+      "note": "Name-pattern matches from HERB disease records. Not a curated mapping."
+    }
+  }
+}

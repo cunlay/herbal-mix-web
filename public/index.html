@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Herbal Mix</title>
+  <meta name="description" content="Build an herb blend for a common concern, with daily doses, blend percentages and batch sizes.">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Herbal Mix</h1>
+      <p class="tagline">Choose a concern and get a blend with daily doses, blend percentages and batch sizes.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="panel" aria-labelledby="builder-title">
+      <h2 id="builder-title">Build a blend</h2>
+      <form id="builder-form" novalidate>
+        <div class="grid">
+          <label>Concern
+            <select id="ailment" name="ailment"></select>
+          </label>
+          <label>Profile
+            <select id="profile" name="profile"></select>
+          </label>
+          <label>Dose level
+            <select id="dose" name="dose">
+              <option value="low" selected>Low (bottom of range)</option>
+              <option value="mid">Mid (middle of range)</option>
+              <option value="high">High (top of range)</option>
+            </select>
+          </label>
+          <label>Days of supply
+            <input id="servings" name="servings" type="number" min="1" max="365" step="1" value="30">
+          </label>
+          <label>Capsule size (mg)
+            <select id="capsule" name="capsule">
+              <option value="250">250</option>
+              <option value="400">400</option>
+              <option value="500" selected>500</option>
+              <option value="600">600</option>
+              <option value="750">750</option>
+              <option value="1000">1000</option>
+            </select>
+          </label>
+        </div>
+
+        <fieldset class="conditions">
+          <legend>Conditions I have (optional)</legend>
+          <p class="hint">Ticking a condition flags any herb that needs a clinician check for it.</p>
+          <div id="conditions" class="checks"></div>
+        </fieldset>
+
+        <button type="submit" class="primary">Build blend</button>
+      </form>
+    </section>
+
+    <div id="error" class="error" role="alert" hidden></div>
+
+    <section id="results" class="panel" hidden aria-live="polite">
+      <div class="toolbar">
+        <div>
+          <h2 id="result-title"></h2>
+          <p id="result-summary" class="muted"></p>
+        </div>
+        <button id="print" type="button" class="secondary">Print</button>
+      </div>
+
+      <div id="cards" class="cards"></div>
+      <div id="alerts"></div>
+
+      <div class="table-wrap">
+        <table id="ingredients"></table>
+      </div>
+      <p id="review-note" class="footnote" hidden></p>
+
+      <h3>Cautions</h3>
+      <ul id="cautions" class="list"></ul>
+
+      <h3>Sources</h3>
+      <ul id="sources" class="list"></ul>
+
+      <h3>Evidence and traditional use (HERB database)</h3>
+      <p id="evidence-note" class="footnote"></p>
+      <div id="evidence-list" class="evidence-list"></div>
+
+      <p id="disclaimer" class="disclaimer"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Educational tool, not medical advice. Check with a doctor or pharmacist before taking herbs.</p>
+    </div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>

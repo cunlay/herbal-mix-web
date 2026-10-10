@@ -1,0 +1,457 @@
+{
+  "source": "HERB: high-throughput experiment- and reference-guided database of TCM (herb_info, v2)",
+  "source_file": "1791473747178_HERB_herb_info_v2.txt",
+  "source_url": "http://47.92.70.12/Download/",
+  "generated_at": "2026-10-08T15:36:40.620Z",
+  "license_note": "Check the HERB terms of use before redistributing this file. A license was not found on the download page I could see.",
+  "herbs": {
+    "ginkgo": {
+      "name": "Ginkgo",
+      "match": "auto",
+      "matched_on": "ginkgo biloba",
+      "note": "HERB record is ginkgo bark (白果树皮). The EGb 761 leaf extract is a different part. Do not apply this record to the standardized extract.",
+      "records": [
+        {
+          "herb_id": "HERB000188",
+          "pinyin_name": "Bai Guo Shu Pi",
+          "cn_name": "白果树皮",
+          "alias_name": null,
+          "en_name": "Ginkgo Bark",
+          "latin_name": "Ginkgo Biloba",
+          "properties": null,
+          "meridians": null,
+          "use_part": "Bark",
+          "function": "To boost qi and supplement vacuity.",
+          "indication": "Copper coin lichen, psoriasis.",
+          "toxicity": null,
+          "clinical_manifestations": null,
+          "therapeutic_en_class": null,
+          "therapeutic_cn_class": null,
+          "symmap_id": null,
+          "tcmid_id": "7231",
+          "tcmsp_id": null,
+          "tcm_id_id": null
+        }
+      ]
+    },
+    "fennel": {
+      "name": "Fennel",
+      "match": "auto",
+      "matched_on": "foeniculum vulgare",
+      "note": "Species match on Latin name only. Check use_part and function against the herb being used.",
+      "records": [
+        {
+          "herb_id": "HERB002625",
+          "pinyin_name": "Hui Xiang",
+          "cn_name": "茴香",
+          "alias_name": null,
+          "en_name": "Fennel Fruit",
+          "latin_name": "Foeniculum Vulgare",
+          "properties": "Warm; Pungent",
+          "meridians": "Spleen; Stomach; Liver; Kidney",
+          "use_part": "Fruit",
+          "function": "To warm kidney and disperse cold, rectify qi and harmonize stomach .",
+          "indication": "Incarcerated hernia of intestine, effusion of vaginal coat, elephantiasis of scrotum, cold mounting, cold pain in lesser-abdomen, kidney vacuity lumbago, stomachache, vomiting, beriberi.",
+          "toxicity": null,
+          "clinical_manifestations": null,
+          "therapeutic_en_class": "For warming interior",
+          "therapeutic_cn_class": "温里",
+          "symmap_id": "SMHB00437",
+          "tcmid_id": "4943",
+          "tcmsp_id": null,
+          "tcm_id_id": "1000"
+        }
+      ]
+    },
+    "ginger": {
+      "name": "Ginger",
+      "match": "candidate",
+      "matched_on": "HERB001787",
+      "note": "Gan Jiang (dried ginger). Our entry is dried ginger rhizome, so this is a likely match. Confirm.",
+      "records": [
+        {
+          "herb_id": "HERB001787",
+          "pinyin_name": "Gan Jiang",
+          "cn_name": "干姜",
+          "alias_name": "白姜; 均姜",
+          "en_name": "Dried Ginger; Zingiber; Dried Ginger",
+          "latin_name": "Rhizoma Zingiberis; Zingiberis Rhizoma",
+          "properties": "Pungent; Hot",
+          "meridians": "Spleen; Stomach; Kidney; Heart; Lung",
+          "use_part": "Dried rhizome",
+          "function": "To dispel cold from the spleen and the stomach, to promote recovery from collapse, and to eliminate damp and phlegm.",
+          "indication": "Cold pain in stomach duct and abdomen, vomiting, diarrhea, yang -collapse reversal flow, cold rheum asthma cough, cold-damp impediment pain.",
+          "toxicity": null,
+          "clinical_manifestations": null,
+          "therapeutic_en_class": "Warming Interior Drugs",
+          "therapeutic_cn_class": "温里药",
+          "symmap_id": "SMHB00136",
+          "tcmid_id": "1656",
+          "tcmsp_id": "136",
+          "tcm_id_id": null
+        }
+      ]
+    },
+    "peppermint": {
+      "name": "Peppermint oil",
+      "match": "auto",
+      "matched_on": "mentha piperita",
+      "note": "Species match on Latin name only. Check use_part and function against the herb being used.",
+      "records": [
+        {
+          "herb_id": "HERB003229",
+          "pinyin_name": "La Bo He",
+          "cn_name": "辣薄荷",
+          "alias_name": "椒样薄荷",
+          "en_name": "Pepper Mint",
+          "latin_name": "Mentha × Piperita",
+          "properties": "Acrid; Cool",
+          "meridians": "Lung; Liver",
+          "use_part": "Leaf",
+          "function": "To course wind and dissipate heat, resolve toxin and dissipate binds.",
+          "indication": "Wind-heat common cold, headache, red eyes, sore pharynx, epidemic parotitis.",
+          "toxicity": null,
+          "clinical_manifestations": null,
+          "therapeutic_en_class": null,
+          "therapeutic_cn_class": null,
+          "symmap_id": null,
+          "tcmid_id": "7972",
+          "tcmsp_id": null,
+          "tcm_id_id": null
+        }
+      ]
+    },
+    "chamomile": {
+      "name": "Chamomile",
+      "match": "candidate",
+      "matched_on": "HERB004045",
+      "note": "Mu Ju (Flos Matricariae Chamomillae). Confirm it is the flower used for our chamomile dose.",
+      "records": [
+        {
+          "herb_id": "HERB004045",
+          "pinyin_name": "Mu Ju",
+          "cn_name": "母菊",
+          "alias_name": "洋甘菊",
+          "en_name": "Mayweed",
+          "latin_name": "Flos Matricariae Chamomillae",
+          "properties": "Acrid; Slightly Bitter; Cool",
+          "meridians": null,
+          "use_part": "Flower or whole herb",
+          "function": "To clear heat and resolve toxin, relieve cough and calm asthma, dispel wind-damp.",
+          "indication": "Common cold with fever, swelling pain in throat, lung heat cough asthma, heat impediment swelling and pain, swelling of sores.",
+          "toxicity": null,
+          "clinical_manifestations": null,
+          "therapeutic_en_class": null,
+          "therapeutic_cn_class": null,
+          "symmap_id": null,
+          "tcmid_id": "2721",
+          "tcmsp_id": null,
+          "tcm_id_id": null
+        }
+      ]
+    },
+    "passionflower": {
+      "name": "Passionflower",
+      "match": "auto",
+      "matched_on": "passiflora incarnata",
+      "note": "Species match on Latin name only. Check use_part and function against the herb being used.",
+      "records": [
+        {
+          "herb_id": "HERB001684",
+          "pinyin_name": "Rou Se Xi Fan Lian",
+          "cn_name": "肉色西番莲",
+          "alias_name": null,
+          "en_name": "May-Apple",
+          "latin_name": "Passiflora Incarnata",
+          "properties": null,
+          "meridians": null,
+          "use_part": null,
+          "function": null,
+          "indication": null,
+          "toxicity": null,
+          "clinical_manifestations": null,
+          "therapeutic_en_class": null,
+          "therapeutic_cn_class": null,
+          "symmap_id": null,
+          "tcmid_id": "6993",
+          "tcmsp_id": null,
+          "tcm_id_id": null
+        }
+      ]
+    },
+    "echinacea": {
+      "name": "Echinacea",
+      "match": "auto",
+      "matched_on": "echinacea purpurea",
+      "note": "Species match on Latin name only. Check use_part and function against the herb being used.",
+      "records": [
+        {
+          "herb_id": "HERB007240",
+          "pinyin_name": "Song Guo Ju",
+          "cn_name": "松果菊",
+          "alias_name": null,
+          "en_name": "Echinacea",
+          "latin_name": "Echinacea Purpurea",
+          "properties": null,
+          "meridians": null,
+          "use_part": "Root",
+          "function": "Used as a general nonspecific stimulant to the immune system, supporting and stabilizing cellular immunity and cleansing the blood, for the prevention and treatment of infections. there are no known side effects associated with it's use.",
+          "indication": "Used as a general nonspecific stimulant to the immune system, supporting and stabilizing cellular immunity and cleansing the blood, for the prevention and treatment of infections. there are no known side effects associated with it's use.",
+          "toxicity": null,
+          "clinical_manifestations": null,
+          "therapeutic_en_class": null,
+          "therapeutic_cn_class": null,
+          "symmap_id": null,
+          "tcmid_id": "5430",
+          "tcmsp_id": null,
+          "tcm_id_id": null
+        }
+      ]
+    },
+    "eleuthero": {
+      "name": "Eleuthero",
+      "match": "auto",
+      "matched_on": "eleutherococcus senticosus",
+      "note": "Species match on Latin name only. Check use_part and function against the herb being used.",
+      "records": [
+        {
+          "herb_id": "HERB000941",
+          "pinyin_name": "Ci Wu Jia Pi",
+          "cn_name": "刺五加片",
+          "alias_name": null,
+          "en_name": "Manyprickle Acanthopanax Root-Bark",
+          "latin_name": "Eleutherococcus Senticosus",
+          "properties": null,
+          "meridians": null,
+          "use_part": "Root cortex",
+          "function": "See acanthopanax gracilistylus.",
+          "indication": "See acanthopanax gracilistylus .",
+          "toxicity": null,
+          "clinical_manifestations": null,
+          "therapeutic_en_class": null,
+          "therapeutic_cn_class": null,
+          "symmap_id": null,
+          "tcmid_id": "7144",
+          "tcmsp_id": null,
+          "tcm_id_id": null
+        },
+        {
+          "herb_id": "HERB000942",
+          "pinyin_name": "Ci Wu Jia Ye",
+          "cn_name": "刺五加叶",
+          "alias_name": null,
+          "en_name": "Manyprickle Acanthopanax Leaf",
+          "latin_name": "Eleutherococcus Senticosus",
+          "properties": null,
+          "meridians": null,
+          "use_part": null,
+          "function": null,
+          "indication": null,
+          "toxicity": null,
+          "clinical_manifestations": null,
+          "therapeutic_en_class": null,
+          "therapeutic_cn_class": null,
+          "symmap_id": null,
+          "tcmid_id": "3100",
+          "tcmsp_id": null,
+          "tcm_id_id": null
+        }
+      ]
+    },
+    "turmeric": {
+      "name": "Turmeric",
+      "match": "candidate",
+      "matched_on": "HERB002840",
+      "note": "Jiang Huang (Rhizoma Curcumae Longae). Confirm it is Curcuma longa.",
+      "records": [
+        {
+          "herb_id": "HERB002840",
+          "pinyin_name": "Jiang Huang",
+          "cn_name": "姜黄",
+          "alias_name": "宝鼎香; 黄姜",
+          "en_name": "Turmeric; Rhizome of Common Turmeric",
+          "latin_name": "Rhizoma Curcumae Longae; Curcumae Longae Rhizoma",
+          "properties": "Pungent; Bitter; Warm",
+          "meridians": "Spleen; Liver",
+          "use_part": "Tuberoid",
+          "function": "To eliminate blood stasis, promote the flow of qi, stimulate menstrual discharge and relieve pain.",
+          "indication": "Gallstones, jaundice, leukaemia in early stage and carcinoma of uterine cervix in early stage, chronic ulcer, chronic scab, blood stasis and qi stagnation, pain in chest and abdomen and rib-side, dysmenorrhea, amenorrhea, postpartum stasis stagnation abdominal pain, wind-heat impediment pain, knocks and falls, swollen welling abscess.",
+          "toxicity": null,
+          "clinical_manifestations": null,
+          "therapeutic_en_class": "Blood Activating Stasis Removing Drugs",
+          "therapeutic_cn_class": "活血祛瘀药",
+          "symmap_id": "SMHB00198",
+          "tcmid_id": "6033",
+          "tcmsp_id": "198",
+          "tcm_id_id": "1063"
+        }
+      ]
+    },
+    "harpagophytum": {
+      "name": "Devil's claw",
+      "match": "auto",
+      "matched_on": "harpagophytum procumbens",
+      "note": "Species match on Latin name only. Check use_part and function against the herb being used.",
+      "records": [
+        {
+          "herb_id": "HERB004088",
+          "pinyin_name": "Nan Fei Gou Ma",
+          "cn_name": "南非钩麻",
+          "alias_name": null,
+          "en_name": "Devil’S Clow",
+          "latin_name": "Harpagophytum Procumbens",
+          "properties": null,
+          "meridians": null,
+          "use_part": "Whole herb",
+          "function": "To relieve pain, eliminate inflammation, resolve heat.",
+          "indication": "Bronchial asthma, ileitis, ulcerative colitis, rheumatis, abnormal increase of lipoxygenase.",
+          "toxicity": null,
+          "clinical_manifestations": null,
+          "therapeutic_en_class": null,
+          "therapeutic_cn_class": null,
+          "symmap_id": null,
+          "tcmid_id": "2389",
+          "tcmsp_id": null,
+          "tcm_id_id": null
+        }
+      ]
+    },
+    "achillea_millefolium": {
+      "name": "Yarrow",
+      "match": "auto",
+      "matched_on": "achillea millefolium",
+      "note": "Species match on Latin name only. Check use_part and function against the herb being used.",
+      "records": [
+        {
+          "herb_id": "HERB006402",
+          "pinyin_name": "Yang Shi Cao",
+          "cn_name": "洋蓍草",
+          "alias_name": "一支蒿; 一苗蒿; 锯草; 蜈蚣蒿",
+          "en_name": "Common Yarrow",
+          "latin_name": "Achillea Millefolium",
+          "properties": "Acrid; Slightly Bitter; Cool",
+          "meridians": null,
+          "use_part": "Whole herb",
+          "function": "To dispel wind, quicken blood, relieve pain, resolve toxin.",
+          "indication": "Wind-damp impediment pain, knocks and falls, amenorrhea due to blood stasis, swelling toxin of welling abscess and sore, bleeding from hemorrhoids.",
+          "toxicity": "Toxic",
+          "clinical_manifestations": null,
+          "therapeutic_en_class": null,
+          "therapeutic_cn_class": null,
+          "symmap_id": null,
+          "tcmid_id": "7263",
+          "tcmsp_id": null,
+          "tcm_id_id": null
+        }
+      ]
+    },
+    "aloe_vera": {
+      "name": "Aloe vera",
+      "match": "auto",
+      "matched_on": "aloe vera",
+      "note": "Species match on Latin name only. Check use_part and function against the herb being used.",
+      "records": [
+        {
+          "herb_id": "HERB000329",
+          "pinyin_name": "Ban Wen Lu Hui",
+          "cn_name": "斑纹芦荟",
+          "alias_name": null,
+          "en_name": "Chinese Aloe Dried Juice",
+          "latin_name": "Aloe Vera Var. Chinensis",
+          "properties": null,
+          "meridians": null,
+          "use_part": null,
+          "function": "See aloe vera .",
+          "indication": "See aloe vera .",
+          "toxicity": null,
+          "clinical_manifestations": null,
+          "therapeutic_en_class": null,
+          "therapeutic_cn_class": null,
+          "symmap_id": null,
+          "tcmid_id": "6624",
+          "tcmsp_id": null,
+          "tcm_id_id": null
+        }
+      ]
+    },
+    "asparagus_officinalis": {
+      "name": "Asparagus Officinalis",
+      "match": "auto",
+      "matched_on": "asparagus officinalis",
+      "note": "Species match on Latin name only. Check use_part and function against the herb being used.",
+      "records": [
+        {
+          "herb_id": "HERB005041",
+          "pinyin_name": "Shi Diao Bai",
+          "cn_name": "石刁柏",
+          "alias_name": "芦笋; 芦筍; 露笋; 龙须菜（通称）",
+          "en_name": "Curinary Asparagus",
+          "latin_name": "Asparagus Officinalis",
+          "properties": "Slightly Sweet; Neutral",
+          "meridians": null,
+          "use_part": "Tender stem",
+          "function": "To clear heat and disinhibit damp, quicken blood and dissipate binds.",
+          "indication": "Hepatitis, psoriasis, hyperlipemia, hyperplasia of mammary glands.",
+          "toxicity": null,
+          "clinical_manifestations": null,
+          "therapeutic_en_class": null,
+          "therapeutic_cn_class": null,
+          "symmap_id": null,
+          "tcmid_id": "3723",
+          "tcmsp_id": null,
+          "tcm_id_id": "1928"
+        }
+      ]
+    },
+    "sage": {
+      "name": "Sage",
+      "match": "auto",
+      "matched_on": "salvia officinalis",
+      "note": "Species match on Latin name only. Check use_part and function against the herb being used.",
+      "records": [
+        {
+          "herb_id": "HERB006427",
+          "pinyin_name": "Yao Yong Shu Wei Cao",
+          "cn_name": "药用鼠尾草",
+          "alias_name": null,
+          "en_name": "Medicinal Sage",
+          "latin_name": "Salvia Officinalis",
+          "properties": null,
+          "meridians": null,
+          "use_part": null,
+          "function": null,
+          "indication": null,
+          "toxicity": null,
+          "clinical_manifestations": null,
+          "therapeutic_en_class": null,
+          "therapeutic_cn_class": null,
+          "symmap_id": null,
+          "tcmid_id": "7722",
+          "tcmsp_id": null,
+          "tcm_id_id": null
+        },
+        {
+          "herb_id": "HERB006428",
+          "pinyin_name": "Yao Yong Shu Wei Cao Ye",
+          "cn_name": "药用鼠尾草叶",
+          "alias_name": null,
+          "en_name": "Medicinal Sage Leaf",
+          "latin_name": "Salvia Officinalis",
+          "properties": null,
+          "meridians": null,
+          "use_part": null,
+          "function": null,
+          "indication": null,
+          "toxicity": null,
+          "clinical_manifestations": null,
+          "therapeutic_en_class": null,
+          "therapeutic_cn_class": null,
+          "symmap_id": null,
+          "tcmid_id": "1895",
+          "tcmsp_id": null,
+          "tcm_id_id": null
+        }
+      ]
+    }
+  }
+}
